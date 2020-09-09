@@ -1,0 +1,41 @@
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    margin: 0;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 0.6rem;
+}
+
+
+
+.squares {
+    margin: 0.04rem;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(75, 75, 75);
+}
+
+.piece1{
+
+    background-color: rgb(0, 89, 255);
+    border-radius: 10px;
+}
+
+.grid{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 625px;
+    height: 660px;
+    border: 1px solid rgb(112, 112, 112);
+    background-color: rgb(36, 36, 36);
+}
+
+
+
